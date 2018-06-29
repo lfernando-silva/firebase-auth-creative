@@ -63,9 +63,6 @@ typings/
 /frontend/.env.development
 /frontend/.env.production
 
-# next.js build output
-.next
-
 # Webstorm configuration files
 .idea
 ./idea
