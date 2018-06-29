@@ -34,6 +34,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+/api/node_modules
+/frontend/node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -67,3 +69,6 @@ typings/
 # Webstorm configuration files
 .idea
 ./idea
+
+# React build
+/frontend/build
