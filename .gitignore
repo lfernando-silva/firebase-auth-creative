@@ -34,6 +34,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+/api/node_modules
+/frontend/node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -51,11 +53,18 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
+/api/.env.development
+/api/.env.production
+/frontend/.env.development
+/frontend/.env.production
 
-# next.js build output
-.next
+# Webstorm configuration files
+.idea
+./idea
+/frontend/.idea
+/api/.idea
+
+# React build
+/frontend/build
