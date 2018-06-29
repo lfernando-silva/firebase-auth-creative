@@ -1,0 +1,21 @@
+{
+  "extends": ["standard", "standard-react"],
+  "env":{
+    "jest": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "quotes": 0,
+    "react/jsx-indent": [2, 4]
+  }
+}
